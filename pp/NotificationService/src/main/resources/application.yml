@@ -1,0 +1,54 @@
+server:
+  port: 0
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-server:8761/eureka
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+
+spring:
+  application:
+    name: notification-service
+  datasource:
+    username: root
+    password: root
+    url: jdbc:postgresql://localhost:5444/notificationService
+  jpa:
+    hibernate:
+      ddl-auto: update
+  cloud:
+    function:
+      definition: profileCreated
+    stream:
+      bindings:
+        profileCreated-in-0:
+          destination: profile_created
+          group: userserviceGroup
+        userRegistered-out-0:
+          destination: user-registration
+
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: notification-service-group
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
+      properties:
+        spring.deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+        spring.json.trusted.packages: '*'
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+
+email:
+  from: "foma.kinyaev@internet.ru"
+  subject: "Confirm your email"
+  body: "Please confirm your email by clicking the link below:\n{confirmationLink}"
+  confirmation-link: "https://yourapp.com/verify?code="

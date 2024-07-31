@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/pp" />
+        <option name="gradleJvm" value="graalvm-jdk-17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/pp" />
+            <option value="$PROJECT_DIR$/pp/AccountInfoService" />
+            <option value="$PROJECT_DIR$/pp/AuthService" />
+            <option value="$PROJECT_DIR$/pp/AuthenticationService" />
+            <option value="$PROJECT_DIR$/pp/BillingService" />
+            <option value="$PROJECT_DIR$/pp/BlockService" />
+            <option value="$PROJECT_DIR$/pp/BookingService" />
+            <option value="$PROJECT_DIR$/pp/CancellationService" />
+            <option value="$PROJECT_DIR$/pp/CartService" />
+            <option value="$PROJECT_DIR$/pp/CatalogService" />
+            <option value="$PROJECT_DIR$/pp/CleaningRefreshTokensService" />
+            <option value="$PROJECT_DIR$/pp/ClientProfileService" />
+            <option value="$PROJECT_DIR$/pp/ConfigServer" />
+            <option value="$PROJECT_DIR$/pp/EmailService" />
+            <option value="$PROJECT_DIR$/pp/EurekaServer" />
+            <option value="$PROJECT_DIR$/pp/EventStreamCloud" />
+            <option value="$PROJECT_DIR$/pp/GatewayService" />
+            <option value="$PROJECT_DIR$/pp/NotificationService" />
+            <option value="$PROJECT_DIR$/pp/OneCSyncService" />
+            <option value="$PROJECT_DIR$/pp/OrderService" />
+            <option value="$PROJECT_DIR$/pp/ProfileService" />
+            <option value="$PROJECT_DIR$/pp/TicketingService" />
+            <option value="$PROJECT_DIR$/pp/UserInfoService" />
+            <option value="$PROJECT_DIR$/pp/UserService" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

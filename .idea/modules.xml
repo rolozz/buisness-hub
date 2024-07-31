@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AccountInfoService/business-hub.AccountInfoService.main.iml" filepath="$PROJECT_DIR$/.idea/modules/AccountInfoService/business-hub.AccountInfoService.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AuthenticationService/business-hub.AuthenticationService.main.iml" filepath="$PROJECT_DIR$/.idea/modules/AuthenticationService/business-hub.AuthenticationService.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BillingService/business-hub.BillingService.main.iml" filepath="$PROJECT_DIR$/.idea/modules/BillingService/business-hub.BillingService.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CancellationService/business-hub.CancellationService.main.iml" filepath="$PROJECT_DIR$/.idea/modules/CancellationService/business-hub.CancellationService.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CartService/business-hub.CartService.main.iml" filepath="$PROJECT_DIR$/.idea/modules/CartService/business-hub.CartService.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CatalogService/business-hub.CatalogService.main.iml" filepath="$PROJECT_DIR$/.idea/modules/CatalogService/business-hub.CatalogService.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NotificationService/business-hub.NotificationService.main.iml" filepath="$PROJECT_DIR$/.idea/modules/NotificationService/business-hub.NotificationService.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/UserInfoService/business-hub.UserInfoService.main.iml" filepath="$PROJECT_DIR$/.idea/modules/UserInfoService/business-hub.UserInfoService.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/UserService/business-hub.UserService.main.iml" filepath="$PROJECT_DIR$/.idea/modules/UserService/business-hub.UserService.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/pp-20240731T171036Z-001.iml" filepath="$PROJECT_DIR$/.idea/pp-20240731T171036Z-001.iml" />
+    </modules>
+  </component>
+</project>
